@@ -75,3 +75,11 @@ public:
 
         current->next = newNode; // Step 9d: current.next = newNode
     }
+
+    void hapus()
+    {
+        if (START == NULL)
+        {
+            cout << "\nList is empty" << endl;
+            return;
+        }
